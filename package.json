@@ -1,0 +1,20 @@
+{
+  "name": "monkey-type-auto-type",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./index.ts"
+  },
+  "keywords": [],
+  "author": "FADHILI Josue",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.15.7"
+  },
+  "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
+    "puppeteer": "^22.12.0"
+  }
+}
