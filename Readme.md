@@ -8,8 +8,8 @@ Achieve infinite typing speed and 100% accuracy on Monkeytype with a simple auto
 
 ## Requirements
 
-- Node.js (>=12.x)
-- npm (>=6.x)
+- Node.js (>=18.x)
+- pnpm (>=9.x)
 
 Steps to run it locally:
 1. ```bash
