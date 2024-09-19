@@ -76,8 +76,8 @@ async function type(): Promise<void> {
         await handleConsentPopup(page);
 
         // Ensure mode selector is available
-        await page.waitForSelector("#testConfig > div > div.mode > div:nth-child(2)", { visible: true });
-        await page.click("#testConfig > div > div.mode > div:nth-child(2)");
+        await page.waitForSelector("#testConfig > div > div.mode > button:nth-child(2)", { visible: true });
+        await page.click("#testConfig > div > div.mode > button:nth-child(2)");
         sleep(2); 
 
         /***
